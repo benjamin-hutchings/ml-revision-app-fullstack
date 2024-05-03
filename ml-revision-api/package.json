@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js", // entry point
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -18,7 +18,7 @@
     "sqlite3": "^5.1.7"
   },
   "engines": {
-    "node": "20.x" // Specify your Node.js version
+    "node": "20.x"
   },
   "buildpacks": [
     { "url": "heroku/nodejs" }
