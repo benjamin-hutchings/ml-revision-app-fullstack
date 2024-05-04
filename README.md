@@ -1,5 +1,9 @@
 # ML Revision App
 
+Please note there is no online demo for this app as it will be replaced with a more advanced application utilising AI assistants and RAG.
+
+You may clone the repo and run the application locally!
+
 ## Overview
 The ML Revision App is a full-stack application designed to assist users in revising machine learning concepts. It provides a user-friendly interface for browsing topics and viewing revision cards for concepts within these topics. Users can add, remove, and edit both topics and concepts, allowing for a customizable learning experience.
 
