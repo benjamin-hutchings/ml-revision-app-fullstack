@@ -11,7 +11,7 @@ const ConceptsPage = ({ topicId }) => {
   const [currentTopic, setCurrentTopic] = useState("");
   const [featuredIndex, setFeaturedIndex] = useState(0);
   const [showDefinition, setShowDefinition] = useState(false);
-  const [showConceptControls, setShowConceptControls] = useState(false); // Updated to false
+  const [showConceptControls, setShowConceptControls] = useState(false);
 
   useEffect(() => {
     // Fetch all topics

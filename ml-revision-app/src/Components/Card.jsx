@@ -10,7 +10,6 @@ const Card = ({ concept, showDefinition, toggleDefinition }) => {
       >
         {showDefinition ? "Hide Definition" : "Show Definition"}
       </button>
-      {/* Scrollable section for the definition only with bottom padding */}
       <div className="mt-2 overflow-y-auto max-h-60 ">
         {showDefinition ? (
           <p className="text-gray-700">{concept.definition}</p>

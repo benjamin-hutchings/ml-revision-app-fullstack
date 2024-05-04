@@ -39,7 +39,7 @@ const definition = process.argv[4];
 
 if (!topicId || !name || !definition) {
     console.log("Please provide topicId, name, and definition for the concept.");
-    db.close(); // Make sure to close the db if we're not proceeding with adding a concept
+    db.close();
 } else {
     addConcept(db, topicId, name, definition);
 }

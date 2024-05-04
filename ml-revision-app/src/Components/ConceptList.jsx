@@ -16,7 +16,7 @@ const ConceptList = ({ concepts, setFeaturedIndex, setShowDefinition, handleDele
         <span>{concept.name}</span>
         <button
           onClick={(e) => {
-            e.stopPropagation(); // Prevent card click event from triggering
+            e.stopPropagation();
             handleDeleteConcept(concept.id);
           }}
           className="text-red-500 hover:text-red-700"
