@@ -22,7 +22,9 @@ The ML Revision App is a full-stack application designed to assist users in revi
 ## Running the App
 To run the app locally, follow these steps:
 1. Clone the repository:
+'''
 git clone <https://github.com/benjamin-hutchings/ml-revision-app-fullstack.git>
+'''
 2. Navigate to the project directory:
 cd ml-revision-app
 3. Install dependencies:
