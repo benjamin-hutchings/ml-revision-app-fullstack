@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# ML Revision App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The ML Revision App is a full-stack application designed to assist users in revising machine learning concepts. It provides a user-friendly interface for browsing topics and viewing revision cards for concepts within these topics. Users can add, remove, and edit both topics and concepts, allowing for a customizable learning experience.
 
-## Available Scripts
+## Technologies Used
+- React
+- Tailwind CSS
+- Node.js
+- SQLite3
 
-In the project directory, you can run:
+## Features
+- **CRUD Functionality**: Users can perform CRUD (Create, Read, Update, Delete) operations on both topics and concepts, allowing for easy management and customization of content.
+- **Topic Selection**: Users can select topics of interest and view revision cards for concepts within these topics.
+- **Revision Cards**: Each concept is presented in a revision card format, providing a concise summary along with the option to show/hide the definition.
+- **User Interaction**: Users can interact with the app to add new topics and concepts, edit existing ones, and remove topics or concepts they no longer need.
 
-### `npm start`
+## Running the App
+To run the app locally, follow these steps:
+1. Clone the repository:
+git clone <https://github.com/benjamin-hutchings/ml-revision-app-fullstack.git>
+2. Navigate to the project directory:
+cd ml-revision-app
+3. Install dependencies:
+npm install
+4. Start the backend server:
+node app.js
+5. Start the frontend development server:
+npm start
+6. Open your browser and navigate to `http://localhost:3000` to access the ML Revision App.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+1. **Select Topics**: Browse through the list of topics and select the one you want to revise.
+2. **View Revision Cards**: Once a topic is selected, view the revision cards for concepts within that topic.
+3. **Add Concepts**: Add new concepts to a topic by providing a name and definition.
+4. **Edit Concepts**: Update the name or definition of existing concepts.
+5. **Remove Concepts**: Delete concepts that are no longer needed.
+6. **Manage Topics**: Add new topics, rename existing topics, or remove topics as necessary.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors
+- [Benjamin Hutchings](https://github.com/benjamin-hutchings/) - Creator
