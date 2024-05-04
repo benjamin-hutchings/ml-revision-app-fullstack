@@ -1,1 +1,0 @@
-web: cd ml-revision-app && npm start
